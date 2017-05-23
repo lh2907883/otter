@@ -8,7 +8,7 @@ export default class VNode{
     constructor(
         tag?: string,
         attr?: object,
-        children?: VNode[]
+        children?: VNode[] | string
     ) {
         
     }
@@ -16,7 +16,7 @@ export default class VNode{
     static create (
         tag?: string,
         attr?: object,
-        children?: VNode[]
+        children?: VNode[] | string
     ) {
         return new VNode(tag, attr, children);
     }
