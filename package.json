@@ -1,0 +1,21 @@
+{
+    "name": "ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "rollup --config build/rollup.config.js",
+        "test": "mocha -r ts-node/register test/index.ts"
+    },
+    "author": "lihao",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/chai": "^3.5.2",
+        "@types/mocha": "^2.2.41",
+        "chai": "^3.5.0",
+        "mocha": "^3.4.1",
+        "rollup-plugin-typescript": "^0.8.1",
+        "ts-node": "^3.0.4",
+        "typings": "^2.1.1"
+    }
+}
